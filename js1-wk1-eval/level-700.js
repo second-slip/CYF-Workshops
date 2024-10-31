@@ -1,4 +1,4 @@
-let total = console.log(10,32);
+let total = console.log(10,32); // this assigns VOID return to the variable; and also calls the console.log() function
 
 console.log(total);
 

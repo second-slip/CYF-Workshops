@@ -11,6 +11,12 @@
 // Part 2: Use the Node REPL to check your answers to Part 1)
 // Part 3: Using Part 2, explain the difference between Math.trunc() and Math.floor() in your own words
 
+print(10.53);
+print(170.105);
+print(-0.34);
+print(-8.921);
 
-
+function print(val) {
+    console.log(`trunc: ${Math.trunc(val)} | floor: ${Math.floor(val)};`);
+}
 

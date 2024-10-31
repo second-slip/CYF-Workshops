@@ -7,8 +7,10 @@ const secret = "cake";
 confession = confession.replaceAll(secret,'x'.repeat(secret.length));
 
 
-// a) How many function calls are there in this file?
+// a) How many function calls are there in this file? 2
 // b) Explain what the expression confession.replaceAll(secret,'x'.repeat(secret.length)); is doing
-// c) How many inputs do we pass to replaceAll when we call it? How can you tell?
-// d) How any inputs do we pass to repeat when we call it?  How can you tell?
-// e) What kind of statement is on line 7?
+// c) How many inputs do we pass to replaceAll when we call it? How can you tell? 2, comma separated
+// d) How any inputs do we pass to repeat when we call it?  How can you tell? 1
+// e) What kind of statement is on line 7? REASSIGNMENT expression
+
+console.log(confession);
